@@ -1,0 +1,19 @@
+.spinner-wrapper {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #039be5;
+	z-index: 999999;
+	}
+	.spinner{
+	position: absolute;
+	top: 35%;
+	left: 32%;
+	right:30%;
+	margin: 0;
+	}
+    
+    
+    /* Responsivo */

@@ -1,0 +1,104 @@
+body {
+    font-family: intro;
+    /* Free Version */
+}
+#logoSite{
+    max-width: 180px;
+}
+.navSite01, .navSite02 {
+    margin-bottom: 5px;
+}
+.textoMenu{
+    font-size: 18px;
+}
+input#Sair{
+    padding: 22px 15px;
+}
+#Sair:hover{
+    background-color: rgba(0,0,0,0)
+}
+.subheader:hover a{
+    background-color: rgba(0,0,0,0.1) !important;
+}
+.menuOverflow{
+    max-height:600px;
+    overflow: auto;
+}
+/* DropDown */
+.menu {
+    float: left;
+}
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+nav ul li:hover>ul {
+    display: block;
+    z-index: 2;
+}
+nav ul {
+	background: none; 
+	position: relative;
+	display: inline-table;
+}
+nav ul:after{
+	content: ""; clear: both; display: block;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a {
+    display: block;
+    padding:0px 20px;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    padding-bottom: 5px;
+    
+}
+
+nav ul ul li{
+    float: none;
+    font-size: 15px;
+    background: #272727;
+}
+/* Conteudo */
+.conteudo{
+    margin-top: 3%;
+}
+.container{
+    width: 70%;
+}
+#total{
+    background-color: #e0dfdf;
+    border-radius: 5px;
+    min-height: 400px;
+    padding: 30px 35px;
+}
+.informacoes{
+    min-height: 100px !important;
+    background: #DED7D6;
+}
+.iconeTotal{
+    font-size: 24px;
+    margin-right: 4px;
+}
+.informacaoTotal{
+    font-size: 24px;
+}
+.informacaoMaior{
+    font-size: 19px;
+}
+/* Outros */
+::-webkit-scrollbar {
+    width: 7px;
+}
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #272727;
+    opacity: 0.7; 
+}

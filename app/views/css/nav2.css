@@ -1,0 +1,81 @@
+/* Nav 01*/
+.header{
+    background:url("../imgs/banner.png");
+    border-bottom: 2px white solid;
+    background-size: 134%;
+    max-width: 100%;
+    margin-bottom:0;	
+}
+nav{
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	background:none;
+	margin-bottom: 80px;
+}
+#logoSite{
+    max-width:200px;
+    margin-top:4px;
+  }
+input#Sair{
+    background: none;
+    border:none;
+    -webkit-transition: background-color .3s;
+    transition: background-color .3s;
+    color: #fff;
+    display: block;
+    padding: 18px 15px;
+    font-family:Intro;
+}
+#Sair{
+    cursor:pointer;
+}
+#Sair:hover{
+    background-color: rgba(0,0,0,0.1)
+}
+
+/* Nav 02*/
+@media only screen and (max-width: 1023px){
+	.navSite01{
+		display:none;
+	}
+	.navSite02{
+		display:block;
+	}
+	nav{
+		margin-bottom: 45px;
+    }
+    .header{
+        background:url("../imgs/banner2.png") ;
+    }
+    nav a.sidenav-trigger{
+        display: block;
+    }
+    nav .brand-logo {
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+}
+@media only screen and (min-width: 1024px){
+    .navSite01{
+        display:block;
+    }
+    .navSite02{
+        display:none;
+    }
+    .nav-wrapper{
+		margin-left: 0px;
+	}
+}
+@media only screen and (max-width: 1280px){
+    .header{
+        background-size: 165%;
+        max-width: 100%;
+        margin-bottom:0;	
+    }
+}
+@media only screen and (max-width: 976px){
+    .header{
+        background-size: 165%;
+        background:url("../imgs/banner3.png") fixed no-repeat;
+}

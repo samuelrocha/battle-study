@@ -1,0 +1,20 @@
+@font-face{
+    src: url(fonte/Intro.otf);
+    font-family: intro;
+    /* Free Version*/
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    background-color:none;
+}
+::-webkit-scrollbar-track {
+    background: none;
+}
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #272727;
+    opacity: 0.7; 
+    -webkit-box-shadow: none; 
+}

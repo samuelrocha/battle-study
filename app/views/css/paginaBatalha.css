@@ -1,0 +1,309 @@
+/* Header/Nav */
+.header{
+    background: none ;	
+    padding-bottom: 20px;
+    border-bottom: none;
+    
+}
+.navSite01{
+    margin-bottom: 40px;
+}
+.navSite02{
+    margin-bottom: 50px;
+    color: #272727;
+}
+#logoSite{
+    max-width:280px;
+    margin-top:4px;
+}
+#logoSite01{
+    max-width:320px;
+    margin-top:4px;
+}
+.botaoMenu{
+    font-size:36px !important;
+    margin-top: 5px;
+}
+.botaoMenus{
+    padding: 0 6px !important;
+}
+.tempo{
+    color: #272727;
+    font-size: 34px;
+}
+.tempoJogador{
+    background-color: white;
+    width:340px;
+    transform:translate(-50%,-50%);
+    border-radius: 10px;
+    position: absolute;
+    top:85px;
+    left:60%;
+}
+#pontosJogador{
+    margin-left: 20%;
+}
+#tempoJogador{
+    margin-left: 8%;
+}
+/* Fim do Header/Nav */
+
+/* Conteúdo Total */
+.container01{
+    width: 80%;
+}
+
+.artigo01, .artigo02{
+    height:700px
+}
+/* Fim do Conteúdo Total width: 24% !important; */
+
+/* Artigo 1 */
+.artigo01{
+    background-color: white;
+    
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    overflow:auto;
+}
+td{
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.imagemJogadores{
+    width:50px;
+    padding-right: 0;
+    padding-left:0;
+}
+.imagem{
+    margin-bottom:5px;
+    width:45px;
+    height:auto;
+}
+.nickname{
+    font-size:2em;
+    text-align:center;
+}
+.org{
+    font-size:1.2em;
+}
+.pontos{
+    font-size:1.2em;
+}
+
+/* Fim do Artigo 1 */
+
+/* Artigo 2*/
+.artigo02{
+    background-color: white;
+    width: 74% !important; 
+    margin-left:1% !important;
+    border-radius: 10px;
+}
+.container02{
+    padding:15px 5%;
+}
+.numQuestao{
+    margin-bottom:8px;
+}
+#numQuestao{
+    font-size: 32px;
+    color:black;
+}
+#pergQuestao{
+    font-size:18px;
+    font-family: arial;
+}
+.pergEspaco{
+    margin-bottom: 2%;
+    max-height:195px;
+    overflow: auto;
+    margin-bottom:3%;
+    text-align: justify;
+}
+.alternativas{
+    background: white;
+    color: rgba(0,0,0,0.87);
+    cursor:pointer;
+    border-radius: 5px;
+    font-size:22px;
+    margin-bottom: 0.5%;
+    overflow:auto;
+    max-height: 75px;
+    text-align: justify;
+}
+.alternativas:hover{
+    background: #272727;
+    color:white;
+}
+.respQuestao{
+    font-size:18px;
+}
+
+/* Questão Certa */
+
+.acertoQuestao{
+    background: green;
+    color: white;
+    cursor:pointer;
+    border-radius: 5px;
+    font-size:22px;
+    margin-bottom: 0.5%;
+    overflow:auto;
+    max-height: 75px;
+    text-align: justify;
+}
+.acertoQuestao:hover{
+    background: green;
+    color: white;
+}
+
+/* Questão Errada */
+
+.erroQuestao{
+    background: red;
+    color: white;
+    cursor:pointer;
+    border-radius: 5px;
+    font-size:22px;
+    margin-bottom: 0.5%;
+    overflow:auto;
+    max-height: 75px;
+    text-align: justify;
+}
+.erroQuestao:hover{
+    background: red;
+    color: white;
+}
+
+
+/* Fim do Artigo 2 */
+
+/* Outros */
+
+body{
+    font-family: intro;
+    background: url("../imgs/backgroundBatalha.png");
+    background-size: 100%;
+}
+.background{
+}
+
+/* Scroll */
+::-webkit-scrollbar {
+    width: 7px;
+}
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #484848;
+    opacity: 0.7; 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+.alternativas:hover::-webkit-scrollbar-thumb{
+    background: white !important; 
+}
+
+@media only screen and (min-width: 1440px){
+    #pergQuestao{
+        font-size:20px;
+        font-family: arial;
+    }
+    .pergEspaco{
+        margin-bottom: 2%;
+        max-height:270px;
+        overflow: auto;
+        margin-bottom:5%;
+    }
+    .alternativas{
+        cursor:pointer;
+        border-radius: 5px;
+        font-size:22px;
+        margin-bottom: 1.5%;
+        overflow:auto;
+        max-height: 80px;
+    }
+    .artigo01, .artigo02{
+        height:810px
+    }
+    .container01{
+        width: 85%;
+    }
+}
+@media only screen and (max-width: 1368px){
+    .container01{
+        width: 87%;
+    }
+}
+@media only screen and (max-width: 1280px){
+    .container01{
+        width: 93%;
+    }
+}
+@media only screen and (max-width: 1070px){
+    .container01{
+        width: 97%;
+    }
+
+}
+@media only screen and (max-width: 1023px){
+    .container01{
+        width: 90%;
+    }
+    .artigo01{
+        display: none;
+    }
+    .artigo02{
+        height:auto;
+        width: 100% !important;
+        margin-left:0 !important;
+        margin-top: 1%;
+    }
+    .tempoJogador{
+        background-color: white;
+        width:340px;
+        transform:initial;
+        border-radius: 10px;
+        position: initial;
+        margin:auto;
+    }
+    .alternativas{
+        margin-bottom: 2%;
+        max-height: initial;
+        height: auto;
+        margin-bottom:5%;
+    }
+    .respQuestao{
+        font-size: 16px;
+    }
+    .pergQuestao{
+        font-size: 16px;
+    }
+    .pergEspaco{
+        max-height: initial;
+    }
+    .sidenav li {
+        line-height: 26px;
+    }
+    .tabela{
+        width: 80%;
+        margin: auto;
+    }
+    .tituloClassificacao{
+        text-align: center;
+        color: rgba(0,0,0,1) !important;
+        color: black !important;
+    }
+    .informacoesJogador{
+        margin-bottom: 8px !important;
+    }
+    
+}
+@media only screen and (max-width: 450px){
+    .tempoJogador{
+        width: 280px;
+    }
+}
+

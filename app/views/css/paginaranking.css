@@ -1,0 +1,207 @@
+.header{
+    background: none;
+    background-color: #272727;
+    font-family:Intro;
+    margin-bottom:20px;
+}
+#logoSite{
+    max-width: 280px;
+}
+.navSite01{
+    margin-bottom:50px;
+}
+
+/* Conteudo Geral */
+    
+/* Fim do Conteudo Geral */
+
+/* Conteudo Jogador */
+    .imagemJogador{
+        width: 250px;
+        height: auto;
+    }
+    #nomeJogador{
+        font-size: 36px;
+    }
+    #orgJogador{
+        font-size: 30px;
+    }
+    .imgVitorias{
+        width: 140px;
+        height: auto;
+        margin:7px 0;
+    }
+    #vitoriasJogador{
+        font-size: 34px;
+    }
+    #posicaoJogador{
+        font-size: 26px;
+    }
+/* Fim do Conteudo Jogador */
+
+/* Conteudo Ranking */
+    .imagem{
+        width:90px;
+        height: auto;
+    }
+    .ranking{
+        border: black 5px solid;
+    }
+    .tituloJogadores{
+        background-color: black;
+        color: white;
+        font-size: 36px;
+        width: 100%;
+    }
+    .posicao{
+        font-size: 2.5rem;
+        margin-right: 25%;
+        margin-left: 15%;
+    }
+    .imagemJogadores{
+        width: 120px;
+    }
+    .org{
+        font-size: 1.8rem;
+    }
+    .nickname{
+        font-size: 2.3rem;
+        text-align: center;
+    }
+    .tituloVitorias{
+        font-size: 2.3rem;
+    }
+    .vitorias{
+        font-size: 2rem;
+        padding-left: 3%;
+    }
+    .ranking{
+        padding: 0 0 !important;
+    }
+/* Fim do Conteudo Ranking */
+
+/* Outros */
+body{
+    font-family: intro; 
+}
+.container{
+    width: 95%;
+    max-width: 1440px;
+}
+tr{
+    border-bottom: black 2px solid;
+}
+td{
+    padding: 8px 5px;
+}
+tr:last-child{
+    border-bottom: none;
+}
+::-webkit-scrollbar {
+    width: 8px;
+    background-color:none;
+}
+::-webkit-scrollbar-track {
+    background: none;
+}
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #272727;
+    opacity: 0.7; 
+    -webkit-box-shadow: none; 
+}
+
+@media only screen and (max-width: 992px){
+    #iconeMenu{
+        margin-top: 15px;
+    }
+    .escudoJogador{
+        display:none;
+    }
+    #nomeJogador{
+        font-size: 42px;
+    }
+    #orgJogador{
+        font-size: 36px;
+        margin-bottom: 3%;
+    }
+    #vitoriasJogador{
+        font-size: 36px;
+    }
+    #posicaoJogador{
+        font-size: 33px;
+    }
+    .orgMobile{
+        margin-bottom: 1%;
+    }
+    .imagemJogador{
+        width: 150%;
+        margin-top: 5%;
+        height: auto;
+    }
+    #nomeJogador,#vitoriasJogador,#posicaoJogador,#orgJogador{
+        margin-left: 5%;
+    }
+        /* Ranking */
+        .imagem{
+            width:70px;
+            height: auto;
+        }
+        .org{
+            font-size: 1.6rem;
+        }
+        .nickname{
+            font-size: 2.2rem;
+            text-align: center;
+        }
+        .tituloVitorias{
+            font-size: 2rem;
+        }
+        .vitorias{
+            font-size: 1.9rem;
+            padding-left: 3%;
+        }
+}
+@media only screen and (max-width: 600px){
+    .imagemJogador{
+        width: 45%;
+        margin-top: 0;
+        height: auto;
+    }
+    .container{
+        width: 100%;
+    }
+    #nomeJogador,#vitoriasJogador,#posicaoJogador,#orgJogador{
+        margin-left: 0;
+    }
+    
+    /* Ranking */
+    .imagem{
+        width:70px;
+        height: auto;
+    }
+    .org{
+        font-size: 1.4rem;
+    }
+    .nickname{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .tituloVitorias{
+        font-size: 1.8rem;
+    }
+    .vitorias{
+        font-size: 1.7rem;
+        padding-left: 3%;
+    }
+}
+@media only screen and (min-width: 993px){
+    .ranking{
+        max-height: 660px;
+        overflow: auto;
+    }
+    .imagemJogador{
+        margin-bottom: 3%;
+    }
+}

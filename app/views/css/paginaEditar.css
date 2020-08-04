@@ -1,0 +1,237 @@
+/* Header/Nav */
+.header{
+    background-color: black  ;	
+    padding-bottom: 20px;
+    position:relative;
+}
+.navSite01{
+    margin-bottom: 200px;
+}
+.navSite02{
+    margin-bottom: 50px;
+}
+#imgPerfil{
+    transform: translate(-50%,-50%);
+    position:absolute;
+    top: 80%;
+    left: 50%; 
+    width:20%;
+}
+/* Fim Header/Nav */
+
+/* Conteúdo 1  */
+.formulario01{
+    width:85%;
+    margin:auto;
+}
+.nomeJogador{
+    margin-top: 28px;
+}
+#nomeJogador{
+    font-size: 72px;
+    line-height: 1;
+    color: #272727;
+}   
+#orgJogador{
+    font-size: 42px;
+    margin-left: 5px;
+}
+
+.conteudoCentro{
+    margin-top: 38px;
+}
+.conteudoCentral{
+    margin-top:20px;
+}
+#ocupacao{
+    font-size: 48px;
+}
+
+
+
+/* Fim Conteúdo 1 */
+
+/* Conteúdo 2 */
+.artigo02{
+    padding-left:20px;
+}
+.descricao{
+    margin-top: 28%;
+    width: 70%;
+}
+#descricao{
+    font-size: 18px;
+    height: 350px;
+    text-align:left;
+    border-radius:4px;
+    resize: none;
+    white-space: normal;
+    padding:5px;
+    width:80%;
+}
+#descJogador{
+    font-size: 16px;
+}
+.faixa03{
+    line-height:0;
+    height:20px;
+}
+
+/* Fim Conteúdo 2 */
+
+/* Conteúdo 3 */
+#descartePerfil{
+    margin: 20px 0px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+#salvarPerfil{
+    margin: 20px 0px;
+    margin-right: 10px;
+    border-radius: 10px;
+
+}
+.btn:hover, .btn-large:hover, .btn-small:hover {
+    background-color: #272727;
+}
+.btn, .btn-large, .btn-small{
+    background-color: #272727;
+    transition: background-color .5s;
+    font-family: intro;
+}
+.configuracao{
+    margin-bottom:30px;
+}
+#configuracao{
+    font-size: 36px;
+    color: #272727;
+    margin-bottom:15px;
+}
+input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]){
+    border-bottom-color: #272727;
+    box-shadow: none;
+  }
+  input:not([type]):focus:not([readonly])+label, input[type=text]:not(.browser-default):focus:not([readonly])+label, input[type=password]:not(.browser-default):focus:not([readonly])+label, input[type=email]:not(.browser-default):focus:not([readonly])+label, input[type=url]:not(.browser-default):focus:not([readonly])+label, input[type=time]:not(.browser-default):focus:not([readonly])+label, input[type=date]:not(.browser-default):focus:not([readonly])+label, input[type=datetime]:not(.browser-default):focus:not([readonly])+label, input[type=datetime-local]:not(.browser-default):focus:not([readonly])+label, input[type=tel]:not(.browser-default):focus:not([readonly])+label, input[type=number]:not(.browser-default):focus:not([readonly])+label, input[type=search]:not(.browser-default):focus:not([readonly])+label, textarea.materialize-textarea:focus:not([readonly])+label{
+    color:#272727;
+  }
+  .dropdown-content li>a, .dropdown-content li>span {
+      color: #272727;
+  }
+  .datepicker-date-display{
+      background-color: #272727;
+  }
+/* Fim Conteúdo 3 */
+input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea{
+    width:100%;
+}
+/* Outros */	
+
+body{
+    font-family: intro;
+    color: #272727;
+}
+.container{
+    width: 95%;
+    max-width: 1440px;
+}
+@media only screen and (max-width:880px){
+	#imgPerfil2{
+		display:block;
+	}
+	#imgPerfil{
+		display:none;
+	}
+  }
+  @media only screen and (max-width: 992px){
+    .container{
+        width: 90%;
+    }
+	#imgPerfil2{
+		display:block;
+	}
+	#imgPerfil{
+		display:none;
+    }
+    .nomeJogador{
+        text-align: center;
+    }
+    #orgJogador{
+        margin-left: 0;
+    }
+    .orgJogador{
+        text-align: center
+    }
+    #imgPerfil2{
+        margin: auto;
+        max-width: 250px;
+    }
+    .artigo01{
+        margin-bottom: 0;
+    }
+    .descricao{
+        margin-top: 12px;
+    }
+    .conteudoCentro{
+        padding-top: 12px;
+        margin-top: 20px;
+    }
+    .conteudoCentral{
+        margin-top:30px;
+    }
+    #idade{
+        margin-top: 20px;
+    }
+    #imgVitoria{
+        margin-top: 20px;
+        max-width:300px;
+    }
+    .botao02{
+		display:block;
+	}
+	.botao01{
+		display:none;
+	}
+  }
+  @media only screen and (min-width: 993px){
+	#imgPerfil{
+		display:block;
+	}
+	#imgPerfil2{
+		display:none
+    }
+    .botao01{
+		display:block;
+	}
+	.botao02{
+		display:none;
+	}
+  }
+  @media only screen and (max-width: 1070px){
+    #descartePerfil{
+        margin: 20px 0px;
+        margin-right: 10px;
+    }
+    #salvarPerfil{
+        margin: 20px 0px;
+        margin-right: 5px;
+    }
+    #configuracao{
+        font-size: 32px;
+        color: #272727;
+        margin-bottom:15px;
+    }
+  }
+  @media only screen and (max-width: 1280px){
+    #nomeJogador{
+        font-size: 58px;
+    }
+    #orgJogador{
+        font-size: 38px;
+    }
+    .container{
+        width: 99%;
+    }
+    #imgPerfil{
+        width:23%;
+    }
+}

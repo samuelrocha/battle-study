@@ -1,0 +1,147 @@
+/* Header/Nav */
+#logoSite{
+	max-width: 380px;
+}
+
+.navSite02{
+	margin-bottom: 75px;
+}
+/* Conteúdo Geral */
+.tituloDesenvolvedor{
+	text-align: center;
+	margin: 2% 0 4% 0;
+}
+#tituloDesenvolvedores{
+	font-size: 4.3rem;
+}
+/* Informações dos Developers */
+.desenvolvedores{
+	text-align: center;
+}
+.espacoDesenvolvedor{
+	text-align: center;
+}
+.espacoDesenvolvedor:last-child{
+	margin-right: 0;
+}
+.fotoDesenvolvedores{
+	max-width: 100%;
+	margin-bottom: 3%;
+}
+.nomeDesenvolvedor{
+	font-size:32px ;
+
+}
+.funcaoDesenvolvedor{
+	font-size: 18px;
+}
+
+
+/* Outros */
+body{
+	font-family: intro;
+	color: black;
+}
+.container{
+	width: 90%;
+}
+
+@media only screen and (min-width: 993px){
+	/* Header/Nav */
+
+
+
+	/* Conteúdo Geral */
+
+
+
+
+	/* Informações dos Developers */
+	.espacoDesenvolvedor{
+		margin-right: 0;
+		margin-bottom: 5%;
+	}
+	.l2{
+		width: 25% !important;
+	}
+	.fotoDesenvolvedores{
+
+	}
+
+
+}
+@media only screen and (min-width: 1281px){
+	.espacoDesenvolvedor{
+		width: 20% !important;
+	}
+}
+@media only screen and (max-width: 992px){
+	/* Header/Nav */
+	#logoSite{
+		max-width: 350px;
+	}
+
+	/* Conteúdo Geral */
+	#tituloDesenvolvedores{
+		font-size: 3.5rem;
+	}
+
+
+
+	/* Informações dos Developers */
+	.espacoDesenvolvedor{
+		margin-right: 0;
+		margin-bottom: 5%;
+	}
+	.fotoDesenvolvedores{
+		max-width: 75%;
+	}
+
+}
+@media only screen and (max-width: 600px){
+	/* Header/Nav */
+	#logoSite{
+		max-width: 300px;
+	}
+
+	/* Conteúdo Geral */
+	#tituloDesenvolvedores{
+		font-size: 2.5rem;
+	}
+
+
+
+	/* Informações dos Developers */
+
+	/* Header/Nav */
+
+}
+@media only screen and (max-width: 430px){
+	/* Header/Nav */
+
+
+
+	/* Conteúdo Geral */
+	#tituloDesenvolvedores{
+		font-size: 2rem;
+	}
+
+
+
+	/* Informações dos Developers */
+}
+@media only screen and (max-width: 320px){
+	/* Header/Nav */
+	#logoSite{
+		max-width: 260px;
+	}
+
+	/* Conteúdo Geral */
+	#tituloDesenvolvedores{
+		font-size: 1.7rem;
+	}
+
+
+
+	/* Informações dos Developers */
+}
